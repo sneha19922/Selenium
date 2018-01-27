@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Framework.Listeners"/>
+    <listener class-name="utils.ExtentReporterNG"/>
+  </listeners>
+  <test name="HomePage Test(failed)">
+    <classes>
+      <class name="Framework.SignInPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startInitBrowser"/>
+        </methods>
+      </class> <!-- Framework.SignInPage -->
+      <class name="Framework.ValidateTitle">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startInitBrowser"/>
+        </methods>
+      </class> <!-- Framework.ValidateTitle -->
+      <class name="Framework.HomePage">
+        <methods>
+          <include name="pageNavigation"/>
+          <include name="tearDown"/>
+          <include name="startInitBrowser"/>
+        </methods>
+      </class> <!-- Framework.HomePage -->
+    </classes>
+  </test> <!-- HomePage Test(failed) -->
+  <test name="ValidateTitle Test(failed)">
+    <classes>
+      <class name="Framework.SignInPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startInitBrowser"/>
+        </methods>
+      </class> <!-- Framework.SignInPage -->
+      <class name="Framework.ValidateTitle">
+        <methods>
+          <include name="validate"/>
+          <include name="tearDown"/>
+          <include name="startInitBrowser"/>
+        </methods>
+      </class> <!-- Framework.ValidateTitle -->
+      <class name="Framework.HomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startInitBrowser"/>
+        </methods>
+      </class> <!-- Framework.HomePage -->
+    </classes>
+  </test> <!-- ValidateTitle Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
