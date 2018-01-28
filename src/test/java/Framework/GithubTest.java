@@ -19,11 +19,10 @@ public class GithubTest extends BaseClass {
 	public void startInitBrowser() throws IOException{
 		driver = startBrowser();
 		driver.manage().window().maximize();
-hgj,jhkjhkjh		driver.get(p.getProperty("url"));
+		driver.get(p.getProperty("url"));
 		log.info("driver is initialized");
 	}
-dgdgdhhfhfhfhfjfhjfjgj
-	@Testhhfhggcgfhfgds	}hbnvjbjbjbnnbvnvnvnv
+
 	@AfterTest
 	public void tearDown(){
 		driver.close();
