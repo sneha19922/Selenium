@@ -22,8 +22,8 @@ public class GithubTest extends BaseClass {
 		driver.get(p.getProperty("url"));
 		log.info("driver is initialized");
 	}
-
-//	@Test
+dgdgdhhfhfhfhfjfhjfjgj
+	@Test
 //	public void display() throws IOException{
 //		AigLogin a = new AigLogin(driver);
 //		a.loginPage().click();
