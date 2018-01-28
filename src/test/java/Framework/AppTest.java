@@ -15,11 +15,11 @@ public class AppTest
      *
      * @param testName name of the test case
      */
-    public AppTest( String testName )
+    public AppTest( String hi )
     {
-        super( testName );
+        super( hi );
     }
-gjgjhjhjgjhghbghgyuyhkhknk
+
     /**
      * @return the suite of tests being tested
      */
