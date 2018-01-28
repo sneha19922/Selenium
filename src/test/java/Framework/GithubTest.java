@@ -19,18 +19,11 @@ public class GithubTest extends BaseClass {
 	public void startInitBrowser() throws IOException{
 		driver = startBrowser();
 		driver.manage().window().maximize();
-		driver.get(p.getProperty("url"));
+hgj,jhkjhkjh		driver.get(p.getProperty("url"));
 		log.info("driver is initialized");
 	}
 dgdgdhhfhfhfhfjfhjfjgj
-	@Test
-//	public void display() throws IOException{
-//		AigLogin a = new AigLogin(driver);
-//		a.loginPage().click();
-//		AigLoginPage a3=new AigLoginPage(driver);
-//		Assert.assertEquals(a3.titleText().getText(), "AIG Log In Aplications");
-//		log.error("Text is displayed incorrect");
-//	}
+	@Testhhfhggcgfhfgds	}hbnvjbjbjbnnbvnvnvnv
 	@AfterTest
 	public void tearDown(){
 		driver.close();
