@@ -1,4 +1,4 @@
-package Framework;
+ugjggugjgpackage Framework;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -15,9 +15,9 @@ public class AppTest
      *
      * @param testName name of the test case
      */
-    public AppTest( String testName )
+    public AppTest( String hi )
     {
-        super( testName );
+        super( hi );
     }
 
     /**
